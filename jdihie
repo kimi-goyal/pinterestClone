@@ -1,0 +1,27 @@
+    /*<div class="container">
+      <div class="card">
+        <div class="profile-picture">
+          <img src="https://images.unsplash.com/photo-1605993439219-9d09d2020fa5?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="User Profile Picture">
+          </div>
+        <h2 class="name" style="text-transform: capitalize;"><%= user.fullname %></h2>
+        <h3 class="username">@<%= user.username %></h3>
+        <p class="tagline">Keep going. The world is behind You.</p>
+        <a href="/logout" class="button">Logout</a>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+          <input type="file" name="file">
+          <input type="text" name="fileCaption" placeholder="some caption pls!!">
+          <button type="submit">Upload</button>
+        </form>
+      </div>
+  </div>
+  <div class="postcards flex">
+    <% user.posts.forEach(function(post) { %>
+      <div class="postcard">
+        <img src="" alt=""  >
+        <div class="card-body">
+          <h5 class="card-title"><%=  post.imageText%></h5>
+        </div>
+        </div>
+
+      <% }) %>
+  </div>*/
